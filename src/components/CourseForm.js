@@ -20,7 +20,7 @@ function CourseForm(props) {
         label='Author'
         onChange={props.onChange}
         value={props.course.authorId}
-        options={[{ id: 1, name: 'Cory House' }, { id: 2, name: 'Scot Allen' }]}
+        options={[{ id: '1', name: 'Cory House' }, { id: '2', name: 'Scot Allen' }]}
         error={props.errors.authorId}
       />
 

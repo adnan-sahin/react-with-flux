@@ -11,6 +11,11 @@ function CourseList(props) {
         </td>
         <td>{course.authorId}</td>
         <td>{course.category}</td>
+        <td>
+          <button type='button' onClick={() => props.deleteCourse(course.id)} className='btn btn-danger btn-sm'>
+            Delete
+          </button>
+        </td>
       </tr>
     );
   };
@@ -21,6 +26,7 @@ function CourseList(props) {
           <th>Title</th>
           <th>Author Id</th>
           <th>Category</th>
+          <th />
         </tr>
       </thead>
       <tbody>{props.courses.map(renderRow)}</tbody>
@@ -29,6 +35,7 @@ function CourseList(props) {
 }
 
 CourseList.propTypes = {
+  deleteCourse: PropTypes.func.isRequired,
   courses: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,

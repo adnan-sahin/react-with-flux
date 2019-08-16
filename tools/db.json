@@ -65,48 +65,11 @@
     },
     {
       "id": 10,
-      "title": "Web Component Fundamentals1",
+      "title": "Web Component Fundamentals",
       "slug": "web-components-shadow-dom",
-      "authorId": 2,
+      "authorId": 1,
       "category": "HTML5"
-    },
-    {
-      "id": 11,
-      "slug": "sdsdf",
-      "title": "sdsdf",
-      "authorId": 1,
-      "category": "Book",
-      "createdAt": 1565924039606
-    },
-    {
-      "id": 12,
-      "slug": "edfe",
-      "title": "edfe",
-      "authorId": 1,
-      "category": "Book2",
-      "createdAt": 1565924286956
-    },
-    {
-      "id": 13,
-      "slug": "asdsad",
-      "title": "asdsad",
-      "authorId": 1,
-      "category": "dsadfsadf",
-      "createdAt": 1565924850599
     }
   ],
-  "authors": [
-    {
-      "id": 1,
-      "name": "Cory House"
-    },
-    {
-      "id": 2,
-      "name": "Scott Allen"
-    },
-    {
-      "id": 3,
-      "name": "Dan Wahlin"
-    }
-  ]
+  "authors": [{ "id": 1, "name": "Cory House" }, { "id": 2, "name": "Scott Allen" }, { "id": 3, "name": "Dan Wahlin" }]
 }
