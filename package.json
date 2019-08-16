@@ -8,10 +8,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-toastify": "^5.3.2"
   },
   "scripts": {
-    "start":"run-p start:dev start:api",
+    "start": "run-p start:dev start:api",
     "start:dev": "cross-env REACT_APP_API_URL=http://localhost:3001 react-scripts start",
     "prestart:api": "node tools/createMockDb.js",
     "start:api": "node tools/apiServer.js",
